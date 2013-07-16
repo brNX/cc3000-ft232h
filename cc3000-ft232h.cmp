@@ -1,0 +1,52 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Tue 16 Jul 2013 10:29:20 PM WEST
+
+BeginCmp
+TimeStamp = /51E584BB/51E586C8;
+Reference = C1;
+ValeurCmp = 10pF;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E584BB/51E599A5;
+Reference = C2;
+ValeurCmp = 4.7uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E584BB/51E599B2;
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E584BB/51E59B9A;
+Reference = C4;
+ValeurCmp = 100nF;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E584BB/51E589EB;
+Reference = P1;
+ValeurCmp = CONN_4X2;
+IdModule  = 2X4;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E584BB/51E586CE;
+Reference = U1;
+ValeurCmp = U.FL_U.FL;
+IdModule  = U.FL;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E584BB/51E5864E;
+Reference = U2;
+ValeurCmp = CC3000TEXAS_CC3000;
+IdModule  = CC3000;
+EndCmp
+
+EndListe
