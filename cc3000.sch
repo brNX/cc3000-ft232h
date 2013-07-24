@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 2  date 20/07/2013 02:36:30
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
 Title ""
-Date ""
+Date "20 jul 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -539,4 +539,53 @@ Text Label 4550 2900 0    60   ~ 0
 antena1
 Text Label 4550 2250 0    60   ~ 0
 antena2
+$Comp
+L CONN_8 P2
+U 1 1 51E9E89C
+P 9800 3700
+F 0 "P2" V 9750 3700 60  0000 C CNN
+F 1 "CONN_8" V 9850 3700 60  0000 C CNN
+F 2 "" H 9800 3700 60  0000 C CNN
+F 3 "" H 9800 3700 60  0000 C CNN
+	1    9800 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3,3V #PWR024
+U 1 1 51E9E8F9
+P 9400 3350
+F 0 "#PWR024" H 9400 3310 30  0001 C CNN
+F 1 "+3,3V" H 9400 3460 30  0000 C CNN
+F 2 "" H 9400 3350 60  0000 C CNN
+F 3 "" H 9400 3350 60  0000 C CNN
+	1    9400 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR025
+U 1 1 51E9E8FF
+P 9400 3450
+F 0 "#PWR025" H 9400 3450 30  0001 C CNN
+F 1 "GND" H 9400 3380 30  0001 C CNN
+F 2 "" H 9400 3450 60  0000 C CNN
+F 3 "" H 9400 3450 60  0000 C CNN
+	1    9400 3450
+	0    1    1    0   
+$EndComp
+Text Label 9450 3550 2    60   ~ 0
+VBAT_SW_EN
+Text Label 9450 3650 2    60   ~ 0
+SPI_CLK
+Text Label 9450 3750 2    60   ~ 0
+SPI_CS
+Text Label 9450 3850 2    60   ~ 0
+SPI_MISO
+Text Label 9450 3950 2    60   ~ 0
+SPI_MOSI
+Text Label 9450 4050 2    60   ~ 0
+SPI_IRQ
+Wire Wire Line
+	9450 3350 9400 3350
+Wire Wire Line
+	9450 3450 9400 3450
 $EndSCHEMATC
