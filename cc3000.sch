@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 20/07/2013 02:36:30
+EESchema Schematic File Version 2  date 31-07-2013 14:53:35
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,13 +32,13 @@ LIBS:valves
 LIBS:cc3000-2
 LIBS:SparkFun-Connectors
 LIBS:cc3000-ft232h-cache
-EELAYER 24 0
+EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
-Date "20 jul 2013"
+Date "31 jul 2013"
 Rev ""
 Comp ""
 Comment1 ""

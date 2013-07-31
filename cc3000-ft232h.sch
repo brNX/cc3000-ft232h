@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 20/07/2013 02:36:30
+EESchema Schematic File Version 2  date 31-07-2013 14:53:35
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,13 +32,13 @@ LIBS:valves
 LIBS:cc3000-2
 LIBS:SparkFun-Connectors
 LIBS:cc3000-ft232h-cache
-EELAYER 24 0
+EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
-Date "20 jul 2013"
+Date "31 jul 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -51,5 +51,11 @@ S 2200 1650 1300 450
 U 51E584BB
 F0 "cc3000" 50
 F1 "cc3000.sch" 50
+$EndSheet
+$Sheet
+S 4400 1850 500  150 
+U 51F9179A
+F0 "ft232h" 50
+F1 "ft232h.sch" 50
 $EndSheet
 $EndSCHEMATC
