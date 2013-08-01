@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-04-25 BZR 4110)-testing date = 20/07/2013 02:35:42
+Cmp-Mod V01 Created by CvPcb (2013-04-19 BZR 4011)-stable date = 01-08-2013 07:52:05
 
 BeginCmp
 TimeStamp = /51E584BB/51E586C8;
@@ -29,6 +29,90 @@ IdModule  = SM0402;
 EndCmp
 
 BeginCmp
+TimeStamp = /51F9179A/51F9727E;
+Reference = C5;
+ValeurCmp = 0.1;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F9179A/51F977AF;
+Reference = C6;
+ValeurCmp = 27p;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F9179A/51F977A9;
+Reference = C7;
+ValeurCmp = 27p;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F9179A/51F9736D;
+Reference = C8;
+ValeurCmp = 0.1;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F9179A/51F9728B;
+Reference = C9;
+ValeurCmp = 0.1;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F9179A/51F97418;
+Reference = C10;
+ValeurCmp = 0.1;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F9179A/51F9755F;
+Reference = C11;
+ValeurCmp = 0.1;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F9179A/51F9741E;
+Reference = C12;
+ValeurCmp = 0.01;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F9179A/51F97412;
+Reference = C13;
+ValeurCmp = 0.1;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F9179A/51F97429;
+Reference = C14;
+ValeurCmp = 0.01;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F9179A/51FA06F1;
+Reference = CON1;
+ValeurCmp = USB-MINI-B;
+IdModule  = USB-MINIB;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F9179A/51F972CC;
+Reference = L1;
+ValeurCmp = INDUCTOR_SMALL;
+IdModule  = ;
+EndCmp
+
+BeginCmp
 TimeStamp = /51E584BB/51E589EB;
 Reference = P1;
 ValeurCmp = CONN_4X2;
@@ -43,6 +127,69 @@ IdModule  = 1X08;
 EndCmp
 
 BeginCmp
+TimeStamp = /51F9179A/51F98CDB;
+Reference = P3;
+ValeurCmp = CONN_11;
+IdModule  = 1X11_LOCK;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F9179A/51F98CE8;
+Reference = P4;
+ValeurCmp = CONN_11;
+IdModule  = 1X11_LOCK;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F9179A/51F97839;
+Reference = P5;
+ValeurCmp = CONN_4;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F9179A/51F9784C;
+Reference = P6;
+ValeurCmp = CONN_4;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F9179A/51F97C0A;
+Reference = P7;
+ValeurCmp = CONN_6;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F9179A/51F97846;
+Reference = P8;
+ValeurCmp = CONN_4;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F9179A/51F9779C;
+Reference = Q1;
+ValeurCmp = CRYSTAL32-SMD;
+IdModule  = SparkFun-CRYSTAL-32KHZ-SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F9179A/51F97565;
+Reference = R1;
+ValeurCmp = 12K;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F9179A/51F9714A;
+Reference = R2;
+ValeurCmp = 12K;
+IdModule  = ;
+EndCmp
+
+BeginCmp
 TimeStamp = /51E584BB/51E586CE;
 Reference = U1;
 ValeurCmp = U.FL_U.FL;
@@ -54,6 +201,13 @@ TimeStamp = /51E584BB/51E5864E;
 Reference = U2;
 ValeurCmp = CC3000TEXAS_CC3000;
 IdModule  = CC3000;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F9179A/51F96EAD;
+Reference = U3;
+ValeurCmp = FT232H;
+IdModule  = QFN48;
 EndCmp
 
 EndListe
