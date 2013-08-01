@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 2  date 01-08-2013 21:47:47
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ LIBS:SparkFun
 LIBS:93lc46b
 LIBS:93lc56c
 LIBS:cc3000-ft232h-cache
-EELAYER 24 0
+EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8

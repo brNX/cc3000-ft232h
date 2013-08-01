@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Thu 01 Aug 2013 04:25:53 PM WEST
+Cmp-Mod V01 Created by CvPcb (2013-04-19 BZR 4011)-stable date = 01-08-2013 21:47:44
 
 BeginCmp
 TimeStamp = /51E584BB/51E586C8;
@@ -31,7 +31,7 @@ EndCmp
 BeginCmp
 TimeStamp = /51F9179A/51F9727E;
 Reference = C5;
-ValeurCmp = 0.1;
+ValeurCmp = 0.01;
 IdModule  = SM0805;
 EndCmp
 
@@ -80,7 +80,7 @@ EndCmp
 BeginCmp
 TimeStamp = /51F9179A/51F9741E;
 Reference = C12;
-ValeurCmp = 0.01;
+ValeurCmp = 4.7u;
 IdModule  = SM0805;
 EndCmp
 
@@ -94,7 +94,21 @@ EndCmp
 BeginCmp
 TimeStamp = /51F9179A/51F97429;
 Reference = C14;
-ValeurCmp = 0.01;
+ValeurCmp = 4.7u;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F9179A/51FACC6C;
+Reference = C15;
+ValeurCmp = 4.7u;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F9179A/51FACC7C;
+Reference = C16;
+ValeurCmp = 0.1;
 IdModule  = SM0805;
 EndCmp
 
@@ -106,10 +120,24 @@ IdModule  = USB_MINI_B;
 EndCmp
 
 BeginCmp
-TimeStamp = /51F9179A/51F972CC;
-Reference = L1;
-ValeurCmp = INDUCTOR_SMALL;
-IdModule  = SM0603;
+TimeStamp = /51F9179A/51FAC79E;
+Reference = FB1;
+ValeurCmp = FILTER;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F9179A/51FACBCF;
+Reference = FB2;
+ValeurCmp = FILTER;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F9179A/51FAC9FD;
+Reference = FB3;
+ValeurCmp = FILTER;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -186,6 +214,27 @@ BeginCmp
 TimeStamp = /51F9179A/51FA6AF1;
 Reference = R3;
 ValeurCmp = 2K2;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F9179A/51FAC536;
+Reference = R4;
+ValeurCmp = 10K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F9179A/51FAC541;
+Reference = R5;
+ValeurCmp = 10K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F9179A/51FAC547;
+Reference = R6;
+ValeurCmp = 10K;
 IdModule  = SM0805;
 EndCmp
 
