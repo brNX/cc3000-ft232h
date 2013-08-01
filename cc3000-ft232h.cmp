@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-04-19 BZR 4011)-stable date = 01-08-2013 14:43:22
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Thu 01 Aug 2013 04:25:53 PM WEST
 
 BeginCmp
 TimeStamp = /51E584BB/51E586C8;
@@ -99,10 +99,17 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /51F9179A/51FA7F63;
+Reference = CON1;
+ValeurCmp = USB-MINI-B;
+IdModule  = USB_MINI_B;
+EndCmp
+
+BeginCmp
 TimeStamp = /51F9179A/51F972CC;
 Reference = L1;
 ValeurCmp = INDUCTOR_SMALL;
-IdModule  = ;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
@@ -162,13 +169,6 @@ IdModule  = 1X04_LOCK;
 EndCmp
 
 BeginCmp
-TimeStamp = /51F9179A/51F9779C;
-Reference = Q1;
-ValeurCmp = CRYSTAL32-SMD;
-IdModule  = SparkFun-CRYSTAL-32KHZ-SMD;
-EndCmp
-
-BeginCmp
 TimeStamp = /51F9179A/51F97565;
 Reference = R1;
 ValeurCmp = 12K;
@@ -211,17 +211,17 @@ IdModule  = QFN48;
 EndCmp
 
 BeginCmp
-TimeStamp = /51F9179A/51FA0CB9;
-Reference = U4;
-ValeurCmp = USB-MINIB-5PIN_USB-MINIB;
-IdModule  = USB-MINIB;
-EndCmp
-
-BeginCmp
 TimeStamp = /51F9179A/51FA6460;
 Reference = U5;
 ValeurCmp = 93LC56CX-X/SN_SOIC8-N_MC;
-IdModule  = SSOP8;
+IdModule  = SO8E;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F9179A/51FA7E94;
+Reference = X1;
+ValeurCmp = 12MHz;
+IdModule  = Crystal_HC49-SD_SMD_RevA_09Aug2010;
 EndCmp
 
 EndListe

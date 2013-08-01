@@ -1,51 +1,6 @@
-update=01-08-2013 14:36:16
+update=Thu 01 Aug 2013 04:29:52 PM WEST
 version=1
-last_client=eeschema
-[general]
-version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
-[pcbnew]
-version=1
-LastNetListRead=cc3000-ft232h.net
-UseCmpFile=1
-PadDrill="    0.600000"
-PadDrillOvalY="    0.600000"
-PadSizeH="    1.500000"
-PadSizeV="    1.500000"
-PcbTextSizeV="    1.500000"
-PcbTextSizeH="    1.500000"
-PcbTextThickness="    0.300000"
-ModuleTextSizeV="    1.000000"
-ModuleTextSizeH="    1.000000"
-ModuleTextSizeThickness="    0.150000"
-SolderMaskClearance="    0.000000"
-SolderMaskMinWidth="    0.000000"
-DrawSegmentWidth="    0.200000"
-BoardOutlineThickness="    0.100000"
-ModuleOutlineThickness="    0.150000"
-[pcbnew/libraries]
-LibDir=libs
-LibName1=sockets
-LibName2=connect
-LibName3=discret
-LibName4=pin_array
-LibName5=divers
-LibName6=smd_capacitors
-LibName7=smd_resistors
-LibName8=smd_crystal&oscillator
-LibName9=smd_transistors
-LibName10=libcms
-LibName11=display
-LibName12=led
-LibName13=dip_sockets
-LibName14=pga_sockets
-LibName15=valves
-LibName16=cc3000-2
-LibName17=SparkFun-Connectors
+last_client=kicad
 [eeschema]
 version=1
 LibDir=libs
@@ -91,3 +46,49 @@ LibName33=FTDI
 LibName34=SparkFun
 LibName35=93lc46b
 LibName36=93lc56c
+[pcbnew]
+version=1
+LastNetListRead=cc3000-ft232h.net
+UseCmpFile=1
+PadDrill=0.600000000000
+PadDrillOvalY=0.600000000000
+PadSizeH=1.500000000000
+PadSizeV=1.500000000000
+PcbTextSizeV=1.500000000000
+PcbTextSizeH=1.500000000000
+PcbTextThickness=0.300000000000
+ModuleTextSizeV=1.000000000000
+ModuleTextSizeH=1.000000000000
+ModuleTextSizeThickness=0.150000000000
+SolderMaskClearance=0.000000000000
+SolderMaskMinWidth=0.000000000000
+DrawSegmentWidth=0.200000000000
+BoardOutlineThickness=0.100000000000
+ModuleOutlineThickness=0.150000000000
+[pcbnew/libraries]
+LibName1=sockets
+LibName2=connect
+LibName3=discret
+LibName4=pin_array
+LibName5=divers
+LibName6=smd_capacitors
+LibName7=smd_resistors
+LibName8=smd_transistors
+LibName9=libcms
+LibName10=display
+LibName11=led
+LibName12=dip_sockets
+LibName13=pga_sockets
+LibName14=valves
+LibName15=cc3000-2
+LibName16=SparkFun-Connectors
+LibName17=SparkFun
+LibName18=Crystals_RevB_25Apr2012
+LibDir=libs
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
+[general]
+version=1
