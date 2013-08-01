@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 01-08-2013 07:53:11
+EESchema Schematic File Version 2  date 01-08-2013 14:43:33
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,6 +33,8 @@ LIBS:cc3000-2
 LIBS:SparkFun-Connectors
 LIBS:FTDI
 LIBS:SparkFun
+LIBS:93lc46b
+LIBS:93lc56c
 LIBS:cc3000-ft232h-cache
 EELAYER 27 0
 EELAYER END

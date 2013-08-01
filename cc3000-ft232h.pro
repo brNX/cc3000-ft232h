@@ -1,4 +1,4 @@
-update=31-07-2013 21:35:34
+update=01-08-2013 14:36:16
 version=1
 last_client=eeschema
 [general]
@@ -89,3 +89,5 @@ LibName31=cc3000-2
 LibName32=SparkFun-Connectors
 LibName33=FTDI
 LibName34=SparkFun
+LibName35=93lc46b
+LibName36=93lc56c
