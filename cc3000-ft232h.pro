@@ -1,6 +1,8 @@
-update=Thu 01 Aug 2013 04:29:52 PM WEST
+update=02-08-2013 15:05:41
 version=1
-last_client=kicad
+last_client=pcbnew
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=libs
@@ -46,6 +48,12 @@ LibName33=FTDI
 LibName34=SparkFun
 LibName35=93lc46b
 LibName36=93lc56c
+LibName37=sn74cb3t3245
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=cc3000-ft232h.net
@@ -66,6 +74,7 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
+LibDir=libs
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -84,11 +93,4 @@ LibName15=cc3000-2
 LibName16=SparkFun-Connectors
 LibName17=SparkFun
 LibName18=Crystals_RevB_25Apr2012
-LibDir=libs
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
-[general]
-version=1
+LibName19=sn74cb3t3245
