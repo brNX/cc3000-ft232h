@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 03-08-2013 18:53:09
+EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -73,4 +73,20 @@ F 3 "" H 3400 3500 60  0000 C CNN
 	1    3400 3500
 	1    0    0    -1  
 $EndComp
+NoConn ~ 3050 2250
+NoConn ~ 3050 2350
+NoConn ~ 3050 2450
+NoConn ~ 3050 2550
+NoConn ~ 3050 2650
+NoConn ~ 3050 2750
+NoConn ~ 3050 2850
+NoConn ~ 3050 2950
+NoConn ~ 3050 3150
+NoConn ~ 3050 3250
+NoConn ~ 3050 3350
+NoConn ~ 3050 3450
+NoConn ~ 3050 3550
+NoConn ~ 3050 3650
+NoConn ~ 3050 3750
+NoConn ~ 3050 3850
 $EndSCHEMATC
