@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 02-08-2013 23:29:06
+EESchema Schematic File Version 2  date 03-08-2013 18:34:25
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -41,9 +41,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
-Date "2 aug 2013"
+Date "3 aug 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -62,5 +62,11 @@ S 4400 1850 500  150
 U 51F9179A
 F0 "ft232h" 50
 F1 "ft232h.sch" 50
+$EndSheet
+$Sheet
+S 2350 2550 1300 400 
+U 51FCAFF2
+F0 "soic_ssop.sch" 50
+F1 "soic_ssop.sch" 50
 $EndSheet
 $EndSCHEMATC

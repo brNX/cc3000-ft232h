@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 02-08-2013 23:29:06
+EESchema Schematic File Version 2  date 03-08-2013 18:34:25
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -41,9 +41,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 4
 Title ""
-Date "2 aug 2013"
+Date "3 aug 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1454,4 +1454,17 @@ F 3 "~" H 5850 5700 60  0000 C CNN
 	1    5850 5700
 	1    0    0    1   
 $EndComp
+$Comp
+L C C17
+U 1 1 51FD3F0C
+P 3000 6800
+F 0 "C17" H 3000 6900 40  0000 L CNN
+F 1 "0.1" H 3006 6715 40  0000 L CNN
+F 2 "~" H 3038 6650 30  0000 C CNN
+F 3 "~" H 3000 6800 60  0000 C CNN
+	1    3000 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 7000 2700 7000
 $EndSCHEMATC
