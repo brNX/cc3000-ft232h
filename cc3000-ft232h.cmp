@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-04-19 BZR 4011)-stable date = 03-08-2013 18:34:46
+Cmp-Mod V01 Created by PcbNew date = 03-08-2013 19:07:54
 
 BeginCmp
 TimeStamp = /51E584BB/51E586C8;
@@ -169,20 +169,6 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /51F9179A/51FC0357;
-Reference = FB4;
-ValeurCmp = FILTER;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /51F9179A/51FC035D;
-Reference = FB5;
-ValeurCmp = FILTER;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /51F9179A/51FB58E0;
 Reference = IC1;
 ValeurCmp = V_REG_LM1117SOT223;
@@ -253,10 +239,17 @@ IdModule  = 1X04_LOCK;
 EndCmp
 
 BeginCmp
+TimeStamp = /51F9179A/51FD47CE;
+Reference = P6;
+ValeurCmp = CONN_1;
+IdModule  = 1PIN_SMD;
+EndCmp
+
+BeginCmp
 TimeStamp = /51F9179A/51F97C0A;
 Reference = P7;
 ValeurCmp = CONN_6;
-IdModule  = 1X06_LOCK;
+IdModule  = 1X01;
 EndCmp
 
 BeginCmp

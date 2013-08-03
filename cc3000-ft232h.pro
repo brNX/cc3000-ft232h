@@ -1,4 +1,4 @@
-update=02-08-2013 15:05:41
+update=03-08-2013 19:06:03
 version=1
 last_client=pcbnew
 [general]
@@ -58,8 +58,8 @@ EquName1=devcms
 version=1
 LastNetListRead=cc3000-ft232h.net
 UseCmpFile=1
-PadDrill=0.600000000000
-PadDrillOvalY=0.600000000000
+PadDrill=0.000000000000
+PadDrillOvalY=0.000000000000
 PadSizeH=1.500000000000
 PadSizeV=1.500000000000
 PcbTextSizeV=1.500000000000
@@ -94,3 +94,4 @@ LibName16=SparkFun-Connectors
 LibName17=SparkFun
 LibName18=Crystals_RevB_25Apr2012
 LibName19=sn74cb3t3245
+LibName20=1pin_smd
