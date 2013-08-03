@@ -1,7 +1,7 @@
-Cmp-Mod V01 Created by CvPcb (2013-04-19 BZR 4011)-stable date = 03-08-2013 21:05:58
+Cmp-Mod V01 Created by CvPcb (2013-04-19 BZR 4011)-stable date = 03-08-2013 22:49:21
 
 BeginCmp
-TimeStamp = /51FCAFF2/51FD6546;
+TimeStamp = /51FCAFF2/51FD6D10;
 Reference = ??1;
 ValeurCmp = 74LVC138AD;
 IdModule  = SO16N;
@@ -123,6 +123,20 @@ BeginCmp
 TimeStamp = /51F9179A/51FD3F0C;
 Reference = C17;
 ValeurCmp = 0.1;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F9179A/51FD7A84;
+Reference = C18;
+ValeurCmp = 10u;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51F9179A/51FD7A8B;
+Reference = C19;
+ValeurCmp = 10u;
 IdModule  = SM0805;
 EndCmp
 
@@ -414,7 +428,7 @@ IdModule  = SparkFun-LQFP-48;
 EndCmp
 
 BeginCmp
-TimeStamp = /51FCAFF2/51FD6811;
+TimeStamp = /51FCAFF2/51FD6D1D;
 Reference = U4;
 ValeurCmp = 74LVC138AD;
 IdModule  = SparkFun-TSSOP16;
