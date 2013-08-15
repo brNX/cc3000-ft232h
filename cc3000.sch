@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 03-08-2013 22:48:25
+EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ LIBS:93lc46b
 LIBS:93lc56c
 LIBS:sn74cb3t3245
 LIBS:cc3000-ft232h-cache
-EELAYER 27 0
+EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
